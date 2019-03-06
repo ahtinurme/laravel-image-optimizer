@@ -22,6 +22,8 @@ before_script:
   - sudo apt-get install optipng
   - sudo apt-get install libjpeg-progs
   - npm install -g svgo
+  - npm install -g imagmin-cli
+  - npm install -g imagemin-webp
 
 script:
   - vendor/bin/phpunit --coverage-text --coverage-clover=coverage.clover
